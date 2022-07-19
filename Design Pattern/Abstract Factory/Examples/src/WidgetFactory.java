@@ -1,6 +1,5 @@
 
 interface WidgetFactory {
-	void print();
-	void createScroll();
-	void createWindow();
+	Scroll createScroll();
+	Window createWindow();
 }

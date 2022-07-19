@@ -1,14 +1,9 @@
 
 public class ConcreteFactory3 extends ConcreteFactory1{
-	public ConcreteFactory3() {
-		this.s = "Factory: 3";
-		createScroll();
-		createWindow();
-	}
 
 	@Override
-	public void createWindow() {
+	public Window createWindow() {
 		// TODO Auto-generated method stub
-		this.window = new ConcreteWindow2();
+		return new ConcreteWindow2();
 	}
 }
