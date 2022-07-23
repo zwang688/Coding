@@ -1,3 +1,6 @@
 Eclipse
 .DS_Store
 *.class
+.project
+.classpath
+.gitignore
