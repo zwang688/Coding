@@ -4,7 +4,7 @@ public class SegmentTree {
 	
 	public SegmentTree(int[] nums) {
 		size = nums.length;
-		tree = new int[size * 2 - 1];
+		tree = new int[size * 4];
 		this.nums = nums;
 		construct(nums, 0, size - 1, 0);
 	}
